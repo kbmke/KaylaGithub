@@ -153,8 +153,8 @@ ol li {
 }
 
 .btn-danger:hover {
-    background-color: #f55262;
-    border-color: #f55262;
+    background-color: #d4accd;
+    border-color: #9882c6;
     box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
     transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
@@ -222,11 +222,11 @@ button:focus {
 /* NOTE github */
 
 .social-icon li .github:hover {
-    background-color: #4f4ca7;
+    background-color: #810796;
 }
 
 .social-icon li .twitter:hover {
-    background: #4A9CEC;
+    background: #3bcbf6;
 }
 
 .social-icon li .linkedin:hover {
@@ -338,11 +338,8 @@ a.back-to-top:focus {
     bottom: 10px;
 }
 
-
-/* FIXME!!!!!! */
-
 .counter-section {
-    background: url(../img/background/bg-1.jpg);
+    background: url(../img/background/coding-screen.jpg);
     overflow: hidden;
     position: relative;
 }
@@ -722,7 +719,7 @@ a.back-to-top:focus {
 ========================================================================== */
 
 .hero-area-bg {
-    background: url(../img/hero-area.jpg) no-repeat;
+    background: url(../img/background/wireframe.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -953,11 +950,9 @@ a:not([href]):not([tabindex]):hover {
 .services-item .services-content h3 {
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-.services-item .services-content h3 a {
     text-transform: uppercase;
-    color: #666;
+    color: rgb(106, 101, 101);
+    font-size: 18px;
 }
 
 .services-item .services-content h3 a:hover {
